@@ -245,9 +245,9 @@ int BigIntegerNumber::Zero()
     }
     for(i = 0; i < Size - k; i++)
     {
-        Array[i] = Array[i + k];//elimin zerourile //remove the 0
+        Array[i] = Array[i + k];//remove the 0
     }
-    Size = Size - k;//noua dimensiune //the new dimension
+    Size = Size - k;//the new dimension
     return k;
 }
 

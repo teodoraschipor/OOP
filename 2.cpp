@@ -459,7 +459,7 @@ int Bicolor_tree::height(Nod* root)
 */
 int main()
 {
-    ///---------------CITIRE DATE-----------------
+    ///---------------READ DATA-----------------
     ABC *tree = new ABC;
     int n, i, x;
     cout << endl << "Number of nodes: " << endl;
